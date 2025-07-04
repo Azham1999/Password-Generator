@@ -77,3 +77,7 @@ hr {
     background: linear-gradient(to right, #2F3E53 80%, transparent 10%);
 
 }
+
+#answer-intro {
+    color: white;
+}
