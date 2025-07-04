@@ -4,6 +4,7 @@ let characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P
 let answerOne = document.getElementById("answer-one")
 let answerTwo = document.getElementById("answer-two")
 let button = document.getElementById("generator")
+let answerIntro = document.getElementById("answer-intro")
 
 function generatepassword() {
   let result = "";
@@ -12,10 +13,12 @@ function generatepassword() {
   }
   return result;
 }
-    
- 
+
+let words = "Here we go! Your strong passwords"
+
 function gen() {
     answerOne.textContent = generatepassword()
     answerTwo.textContent = generatepassword()
+    answerIntro.textContent = words
 }
 
