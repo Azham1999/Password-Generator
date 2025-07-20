@@ -1,13 +1,20 @@
 body {
+    background-image: url("Password.jpg");
     font-family: "Karla", sans-serif;
-    margin: 20px;
-    margin-top: 60px;
-    background-color: #1F2937;
+    margin: auto;
+    width: 600px;
     text-align: center;
+    display: flex;
 }
 
-#main {
-    padding: px;
+#container {
+    background-color: #1F2937;
+    margin-top: 60px;
+    padding: 20px 5px;
+    height: 400px;
+    width: 600px;
+    border:#4ADF86 solid 5px;
+    border-radius: 5px;
 }
 
 #answer-one {
@@ -64,21 +71,32 @@ h1 {
     margin: 0px;
 }
 
-p {
+#main p {
     color: #9CA3AF;
     margin-top: 5px;
 }
 
 hr {
-    background-color: #2F3E53;
-    border: none;
-    height: 2px;
-    width: 100%;
-    max-width: 100%;
-    background: linear-gradient(to right, #2F3E53 80%, transparent 10%);
+    border: #2F3E53 solid 1px;
+    
 
 }
 
 #answer-intro {
     color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: #9CA3AF;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+}
+
+p {
+    color: white;
+    margin-bottom: 10px;
 }

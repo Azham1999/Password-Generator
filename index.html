@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,9 @@
                 <h1 class="heading">random password</h1>
                 <p>Never use an insecure password again</p>
             </div>
-            <button id="generator" onclick="gen()">Generate password</button>
+            <p>Enter your password length</p>
+            <input id="user-input" value="0" onfocus="this.value=''"><br>
+            <button onclick="gen()">Generate password</button>
             <hr>
             <h2 id="answer-intro"></h2>
             <div id="answer-one"></div>
